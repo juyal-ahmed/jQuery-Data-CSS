@@ -1,94 +1,15 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640">
+<html><head>
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+</head>
+<body>
 
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+	<div data-text-align="center" data-color="#fff" data-background-color="#f00" data-border="1px solid #DEDEDE" data-padding="20px" data-border-radius="10px" data-overflow="hidden" data-position="relative" data-width="500px" data-display="block" data-margin="0px auto" data-padding-bottom="120px" data-padding-top="120px" style="border: 1px solid rgb(222, 222, 222); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding: 120px 20px; margin: 0px auto; width: 500px; overflow: hidden; color: rgb(255, 255, 255); display: block; position: relative; text-align: center; background-color: rgb(255, 0, 0);">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget vehicula turpis. Donec ac arcu quis nunc tristique faucibus. Nulla facilisi. Donec quis sagittis dolor. Nam interdum, nisl id luctus finibus, arcu magna tincidunt est, mollis porttitor eros nisl at magna. Praesent tempor eleifend cursus. Vivamus gravida lectus eu sapien ornare gravida. Maecenas pharetra sed magna sed scelerisque. Vivamus tortor lectus, commodo eget metus at, cursus bibendum tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus in lectus et mi feugiat rhoncus sed non ex. Vestibulum eget sem fermentum, tempor leo sit amet, fringilla sapien. Aliquam in consequat eros, sed lobortis lacus.</p>
+		<p>Suspendisse in purus in turpis dapibus congue sit amet sed elit. Aliquam finibus elementum vehicula. Quisque sit amet diam ut augue sodales tristique. Vestibulum aliquet, mauris eget consequat faucibus, nunc diam ultricies dui, eu venenatis sem risus non nunc. Maecenas id sem consequat velit dapibus tempor eget eget mi. Suspendisse non odio porttitor, mollis justo a, molestie turpis. Duis sagittis sem quis mi ultrices, sed blandit nisi eleifend.</p>
+	</div>
 
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
-    <title>jQuery-Data-CSS by tojibon</title>
-  </head>
+	<script src="./jquery.data.css.js"></script>
+	
 
-  <body>
-    <a id="forkme_banner" href="https://github.com/tojibon/jQuery-Data-CSS">View on GitHub</a>
-    <div class="shell">
-
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>jQuery-Data-CSS</h1>
-            <h2>A jQuery Plugins to apply html data attributes to make inline css.</h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
-
-      <section id="downloads">
-        <span class="inner">
-          <a href="https://github.com/tojibon/jQuery-Data-CSS/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/tojibon/jQuery-Data-CSS/tarball/master" class="tgz"><em>download</em> .TGZ</a>
-        </span>
-      </section>
-
-
-      <span class="banner-fix"></span>
-
-
-      <section id="main_content">
-        <p>Themeforest premium theme development has a standard so you can not add any inline style in your project html/markup output but you can do it with jQuery or Javascript. That's where you can use this plugins.</p>
-
-<h2>
-<a name="sample-example-usages" class="anchor" href="#sample-example-usages"><span class="octicon octicon-link"></span></a>Sample Example Usages:</h2>
-
-<p>In any container or html elements you can use this plugins with data attributes. It is writing any css property and it's value pair with "data-" as property prefix.</p>
-
-<p>LIKE: data-{css-property-name}="{css-property-value}" add as many as you need.</p>
-
-<h3>
-<a name="example" class="anchor" href="#example"><span class="octicon octicon-link"></span></a>Example:</h3>
-
-<pre>
-&lt;div data-text-align="center" data-color="#fff" data-background-color="#f00" data-border="1px solid #DEDEDE" data-padding="20px" data-border-radius="10px" data-overflow="hidden" data-position="relative" data-width="500px" data-display="block" data-margin="0px auto" data-padding-bottom="120px" data-padding-top="120px"&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget vehicula turpis. Donec ac arcu quis nunc tristique faucibus. Nulla facilisi. Donec quis sagittis dolor. Nam interdum, nisl id luctus finibus, arcu magna tincidunt est, mollis porttitor eros nisl at magna. Praesent tempor eleifend cursus. Vivamus gravida lectus eu sapien ornare gravida. Maecenas pharetra sed magna sed scelerisque. Vivamus tortor lectus, commodo eget metus at, cursus bibendum tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus in lectus et mi feugiat rhoncus sed non ex. Vestibulum eget sem fermentum, tempor leo sit amet, fringilla sapien. Aliquam in consequat eros, sed lobortis lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse in purus in turpis dapibus congue sit amet sed elit. Aliquam finibus elementum vehicula. Quisque sit amet diam ut augue sodales tristique. Vestibulum aliquet, mauris eget consequat faucibus, nunc diam ultricies dui, eu venenatis sem risus non nunc. Maecenas id sem consequat velit dapibus tempor eget eget mi. Suspendisse non odio porttitor, mollis justo a, molestie turpis. Duis sagittis sem quis mi ultrices, sed blandit nisi eleifend.&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;script src="./jquery.data.css.js"&gt;&lt;/script&gt;
-</pre>
-
-<p>Thanks</p>
-
-<h2>
-<a name="contributing" class="anchor" href="#contributing"><span class="octicon octicon-link"></span></a>Contributing</h2>
-
-<p>Contributions are most welcome!</p>
-      </section>
-
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>this project by <a href="https://github.com/tojibon">tojibon</a> can be found on <a href="https://github.com/tojibon/jQuery-Data-CSS">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
-      </footer>
-
-    </div>
-
-    
-  </body>
-</html>
+</body></html>
