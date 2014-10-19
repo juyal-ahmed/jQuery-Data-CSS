@@ -8,6 +8,7 @@ Themeforest premium theme development has a standard so you can not add any inli
 ## Sample Example Usages:
 
 In any container or html elements you can use this plugins with data attributes. It is writing any css property and it's value pair with "data-" as property prefix.
+
 LIKE: data-{css-property-name}="{css-property-value}" add as many as you need.
 
 ### Example:
