@@ -6,6 +6,11 @@ A jQuery Plugins to apply html data attributes to make inline css.
 Themeforest premium theme development has a standard so you can not add any inline style in your project html/markup output but you can do it with jQuery or Javascript. That's where you can use this plugins.
 
 ## Sample Example Usages:
+
+In any container or html elements you can use this plugins with data attributes. It is writing any css property and it's value pair with "data-" as property prefix.
+LIKE: data-{css-property-name}="{css-property-value}" add as many as you need.
+
+### Example:
 <pre>
 &lt;div data-text-align="center" data-color="#fff" data-background-color="#f00" data-border="1px solid #DEDEDE" data-padding="20px" data-border-radius="10px" data-overflow="hidden" data-position="relative" data-width="500px" data-display="block" data-margin="0px auto" data-padding-bottom="120px" data-padding-top="120px"&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget vehicula turpis. Donec ac arcu quis nunc tristique faucibus. Nulla facilisi. Donec quis sagittis dolor. Nam interdum, nisl id luctus finibus, arcu magna tincidunt est, mollis porttitor eros nisl at magna. Praesent tempor eleifend cursus. Vivamus gravida lectus eu sapien ornare gravida. Maecenas pharetra sed magna sed scelerisque. Vivamus tortor lectus, commodo eget metus at, cursus bibendum tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus in lectus et mi feugiat rhoncus sed non ex. Vestibulum eget sem fermentum, tempor leo sit amet, fringilla sapien. Aliquam in consequat eros, sed lobortis lacus.&lt;/p&gt;
